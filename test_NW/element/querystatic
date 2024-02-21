@@ -1,0 +1,40 @@
+shouye_tab:
+  iframe: None
+  xpath: //*[@id="topmenu"]/ul/li[5]/a/p
+  备注: 查询统计tab签
+
+add_course:
+  iframe: None
+  xpath: //*[@placeholder="开始日期"]
+  备注: 申请日期-开始时间
+
+add_zhuanti:
+  iframe: None
+  xpath: //*[@placeholder="截止日期"]
+  备注: 申请日期-截止时间
+
+course_page:
+  iframe: None
+  xpath: //*[@id="app"]/div/div[2]/section/div/div[5]/div/div[1]/span
+  备注: 融资品种
+
+
+zhuanti_page:
+  iframe: None
+  xpath: //*[@id="app"]/div/div[2]/section/div/div[6]/div/div[1]/span
+  备注: 状态
+
+key_word:
+  iframe: None
+  xpath: //*[@id="searchForm"]/ul/li[4]/input
+  备注: 关键字
+
+query_button:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+
+download_result:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

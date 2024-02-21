@@ -1,0 +1,61 @@
+dzzqpz:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/creditpaylist-ui?qryType=1"]
+  备注: 电子债权凭证
+
+div_locator:
+  iframe: None
+  xpath: //*[@class="list"]
+  备注: div列表数据
+xqbutton:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[10]/a[1]
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnArea mt20"]
+  备注: 关闭按钮
+lzljbutton:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[10]/a[2]
+  备注: 查看流转路径
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮
+liuzhuanzhong:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[2]
+  备注: 流转中tab
+yirongzi:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[3]
+  备注: 已融资tab
+yizhuanrang:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[4]
+  备注: 已转让tab
+yidaoqi:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[5]
+  备注: 已到期tab
+xqbutton1:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[9]/a[1]
+  备注: 详情
+lzljbutton1:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[9]/a[2]
+  备注: 查看流转路径
+xqbutton2:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[11]/a[1]
+  备注: 详情
+lzljbutton2:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[11]/a[2]
+  备注: 查看流转路径

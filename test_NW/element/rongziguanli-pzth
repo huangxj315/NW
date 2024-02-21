@@ -1,0 +1,52 @@
+pzth:
+  iframe: None
+  xpath: //*[@href="/cnt/creditpayback/list-ui"]
+  备注: 凭证退回
+searchklf:
+  iframe: None
+  xpath: //*[@name="klfirmname"]
+  备注: 输入开立方
+searchbutton:
+  iframe: None
+  xpath: //*[@class="btnGray"]
+  备注: 查询按钮
+pzthsq:
+  iframe: None
+  xpath: //*[@class="btnGreen ml10"]
+  备注: 凭证退回申请按钮
+ckxq:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a
+  备注: 查看详情
+closebtn:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭按钮
+crpayid:
+  iframe: None
+  xpath: //*[@id="crpayid"]
+  备注: 凭证编号
+klfirmname:
+  iframe: None
+  xpath: //*[@id="klfirmname"]
+  备注: 开立方
+backreqmemo:
+  iframe: None
+  xpath: //*[@id="backreqmemo"]
+  备注: 退回原因
+submitBtn:
+  iframe: None
+  xpath: //*[@id="submitBtn"]
+  备注: 提交
+crpayidcx:
+  iframe: None
+  xpath: //*[@name="crpayid"]
+  备注: 查询条件中的凭证编号
+statusselect:
+  iframe: None
+  xpath: //*[@id="searchForm"]/ul/li[3]/select
+  备注: 查询条件状态
+cxbh:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr/td[1]
+  备注: 查询记录中的凭证编号

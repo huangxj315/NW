@@ -1,0 +1,20 @@
+txsqjl:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/outmoneyreq-ui"]
+  备注: 提现申请记录
+xqbutton:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[6]/a
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnArea"]
+  备注: 关闭按钮
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

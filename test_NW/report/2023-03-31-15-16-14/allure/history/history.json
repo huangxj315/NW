@@ -1,0 +1,41 @@
+{
+  "c82c44f3d9e6343e9b433c39429354ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98092162406f176b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680246987343,
+        "stop" : 1680246992572,
+        "duration" : 5229
+      }
+    } ]
+  },
+  "ffb4d3cdfe22a27645130789944ace62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1569c58d32c154da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"javascript:void(0);\" class=\"btnSubmit\" name=\"lgBtn\">...</a> is not clickable at point (1250, 522). Other element would receive the click: <div id=\"jbox-fade\" class=\"jbox-fade\" style=\"position: absolute; height: 893px; width: 100%; inset: 0px; z-index: 1985; opacity: 0.1;\"></div>\n  (Session info: chrome=111.0.5563.147)",
+      "time" : {
+        "start" : 1680247056361,
+        "stop" : 1680247065147,
+        "duration" : 8786
+      }
+    } ]
+  }
+}

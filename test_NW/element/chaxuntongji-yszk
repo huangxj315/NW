@@ -1,0 +1,17 @@
+yszk:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/vchtrdflowlist-ui?vchtrdtype=0"]
+  备注: 应收账款
+
+div_locator:
+  iframe: None
+  xpath: //*[@class="list"]
+  备注: div列表数据
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

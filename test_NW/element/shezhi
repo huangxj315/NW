@@ -1,0 +1,13 @@
+copy_link:
+  iframe: None
+  xpath: //*[@class="copy_link"]
+  备注: 复制链接
+linktext:
+  iframe: None
+  xpath: //*[@id="jbox-content"]
+  备注: 分享地址
+
+copybutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 复制链接确定按钮

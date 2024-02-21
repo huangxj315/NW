@@ -1,0 +1,216 @@
+dzzqpz:
+  iframe: None
+  xpath: //*[@href="/cnt/zqpzqf/crpaylist-ui"]
+  备注: 电子债权凭证
+qianshou:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a[1]
+  备注: 签收
+contno:
+  iframe: None
+  xpath: //*[@id='contno']
+  备注: 合同编号
+contnm:
+  iframe: None
+  xpath: //*[@id='contnm']
+  备注: 合同名称
+CONTMNY:
+  iframe: None
+  xpath: //*[@id='CONTMNY']
+  备注: 合同金额
+contsgndt:
+  iframe: None
+  xpath: //*[@id='contsgndt']
+  备注: 合同日期
+addCus:
+  iframe: None
+  xpath: //*[@class="addCus fr"]
+  备注: 点击导入发票信息
+manualVerification:
+  iframe: None
+  xpath: //*[@id="moreCond"]/LI[3]
+  备注: 点击人工核验tab
+manualEntry:
+    iframe: None
+    xpath: //*[@id="moreCond"]/LI[2]
+    备注: 点击人工录入tab
+invcd_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票代码"]
+  备注: 发票代码输入
+invodate:
+  iframe: None
+  xpath: //*[@placeholder="请选择开票日期"]
+  备注: 选择开票日期
+invodatebutton:
+  iframe: None
+  xpath: //*[@id="dpOkInput"]
+  备注: 点击开票日期确定按钮
+invono_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票号码"]
+  备注: 发票号码输入
+impBtn:
+  iframe: None
+  xpath: //*[@id="impBtn"]
+  备注: 点击导入按钮
+saveBtn:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn ml20"]
+  备注: 点击保存按钮
+uploanMYFile:
+  iframe: None
+  xpath: //*[@id="uploanMYFile"]
+  备注: 点击上传附件
+webuploader-pick:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnRed tc_btn webuploader-container"]
+  备注: 点击选择文件
+uploadbutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击上传附件后的确定按钮
+qianshu:
+  iframe: None
+  xpath: //*[contains(text(),'签署')]
+  备注: 签署
+okBtn:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击签署确定按钮
+cancelbutton:
+  iframe: None
+  xpath: //*[@id="_workFlowBtns_cl"]
+  备注: 取消按钮
+xqbutton:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a[2]
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭/转让页面返回按钮
+lzljbutton:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a[3]
+  备注: 查看流转路径
+chakanxiangqing:
+  iframe: None
+  xpath: //*[contains(text(),'查看详情')]
+  备注: 查看详情
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮
+downZipButton:
+  iframe: None
+  xpath: //*[@id="downZipButton"]
+  备注: 批量下载凭证
+yiqianshou:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[2]
+  备注: 已签收tab
+yifoujue:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[3]
+  备注: 已否决tab
+yizhuanrang:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[4]
+  备注: 已转让tab
+yirongzi:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[5]
+  备注: 已融资tab
+yidaoqi:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[6]
+  备注: 已到期tab
+zhuanrang:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[4]/td[11]/a[1]
+  备注: 转让
+fzhSpan:
+  iframe: None
+  xpath: //*[@name="fzhSpan"]
+  备注: 点击选择销售方
+firmname_input:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="firmname"]
+  备注: 销售方名称输入
+btnGray:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnGray"]
+  备注: 点击销售方名称查询
+select:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@onclick="obj_js.selEvent(this)"]
+  备注: 点击选择
+payamount:
+  iframe: None
+  xpath: //*[@name="payamount"]
+  备注: 输入付款金额
+memo:
+  iframe: None
+  xpath: //*[@name="memo"]
+  备注: 输入摘要
+nextBtn:
+  iframe: None
+  xpath: //*[@id="nextBtn"]
+  备注: 下一步
+savebutton:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn ml20"]
+  备注: 确认支付
+xqbutton1:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[11]/a[1]
+  备注: 详情
+lzljbutton1:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[11]/a[2]
+  备注: 查看流转路径
+xiazaibutton1:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[11]/a[3]
+  备注: 凭证下载
+xqbutton2:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a[1]
+  备注: 详情
+lzljbutton2:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a[2]
+  备注: 查看流转路径
+zrwc:
+    iframe: None
+    xpath: /html/body/div[3]/div[3]/div/div[2]/h2
+    备注: 转让完成提示
+xqbutton3:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[12]/a[1]
+  备注: 详情
+lzljbutton3:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[12]/a[2]
+  备注: 查看流转路径
+xiazaibutton3:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[12]/a[3]
+  备注: 凭证下载
+xqbutton4:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[10]/a[1]
+  备注: 详情
+lzljbutton4:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[10]/a[2]
+  备注: 查看流转路径
+xiazaibutton4:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[10]/a[3]
+  备注: 凭证下载

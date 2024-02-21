@@ -1,0 +1,84 @@
+voucherissuance:
+  iframe: None
+  xpath: /html/body/div[3]/div[1]/ul/li[3]/a
+  备注: 债权凭证签发
+
+keyword_input:
+  iframe: None
+  xpath: //*[@name="keyword"]
+  备注: 关键字输入
+
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 关键字查询按钮
+voucherexpirationdate:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[1]
+  备注: 列表第一条数据的凭证到期日
+list_num1:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[2]
+  备注: 列表第一条数据的凭证编号
+voucheramount:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[5]
+  备注: 列表第一条数据的应付金额
+qianfa:
+  iframe: None
+  xpath: //*[@onclick="obj_js.qfEvent(this)"]
+  备注: 点击签发按钮
+klffirmname:
+  iframe: None
+  xpath: //*[@id="cwpzqfform"]/div/div/table/tbody/tr[2]/td
+  备注: 开立方
+kldate:
+  iframe: None
+  xpath: //*[@id="cwpzqfform"]/div/div/table/tbody/tr[3]/td
+  备注: 开立日期
+zhaiyaoinput:
+  iframe: None
+  xpath: //*[@id="BILLMEMO"]
+  备注: 输入摘要
+
+nextBtn:
+  iframe: None
+  xpath: //*[@name="nextBtn"]
+  备注: 点击下一步
+billnum:
+  iframe: None
+  xpath: //*[@name="settid"]
+  备注: 付款承诺函编号--凭证编号
+cnfqianshu:
+  iframe: None
+  xpath: //*[@data-keyword="承诺方：（电子签章）"]
+  备注: 点击签署按钮
+klfqianshu:
+  iframe: None
+  xpath: //*[@data-keyword="开立方签章"]
+  备注: 点击签署按钮
+getcode:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="getcode"]
+  备注: 点击获取验证码
+smscode:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="smscode"]
+  备注: 输入验证码
+confirmBtn:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击短信验证码弹窗的确定按钮
+okBtn:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击签署确定按钮
+subBtn:
+  iframe: None
+  xpath: //*[@name="subBtn"]
+  备注: 点击提交申请按钮
+
+qfwc:
+    iframe: None
+    xpath: /html/body/div[3]/div[2]/div/div[3]/h2
+    备注: 签发完成提示

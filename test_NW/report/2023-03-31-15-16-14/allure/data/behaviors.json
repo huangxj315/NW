@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "用户不存在",
+      "children" : [ {
+        "name" : "test_login_001",
+        "uid" : "98092162406f176b",
+        "parentUid" : "5eab28b55203dd19015cabcb4e12ffbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680246987343,
+          "stop" : 1680246992572,
+          "duration" : 5229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eab28b55203dd19015cabcb4e12ffbc"
+    }, {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_login_002",
+        "uid" : "1569c58d32c154da",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680247056361,
+          "stop" : 1680247065147,
+          "duration" : 8786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}

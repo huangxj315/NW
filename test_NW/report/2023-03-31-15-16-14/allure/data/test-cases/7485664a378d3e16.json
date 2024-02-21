@@ -1,0 +1,147 @@
+{
+  "uid" : "7485664a378d3e16",
+  "name" : "test_login_002",
+  "fullName" : "test_NW.test_cases.test_login.test_login.test_login#test_login_002",
+  "historyId" : "ffb4d3cdfe22a27645130789944ace62",
+  "time" : {
+    "start" : 1680247005870,
+    "stop" : 1680247014332,
+    "duration" : 8462
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '退出'\n  - 退出",
+  "statusTrace" : "self = <test_NW.test_cases.test_login.test_login.test_login object at 0x00000249332DA0A0>\nget_driver = <test_NW.base.base_NW.base_NW object at 0x00000249333B2280>\n\n    @allure.story(\"登录成功\")\n    def test_login_002(self,get_driver):\n        #获取后台系统地址\n        url = get_driver.get_url('test','houtai')\n        #登录仿真后台系统\n        get_driver.driver.get(url)\n        #获取账号、密码\n        get_user,get_password,get_code = get_driver.get_user(1)\n        #输入账号\n        get_driver.get_element('login','user_input').send_keys(get_user)\n        #输入密码\n        get_driver.get_element('login', 'pas_input').send_keys(get_password)\n        #点击获取验证码\n        get_driver.get_element('login', 'send_code').click()\n        sleep(3)\n        #输入验证码\n        get_driver.get_element('login', 'code_input').send_keys(get_code)\n        #点击登录\n        get_driver.get_element('login', 'login_button').click()\n    \n        #校验是否正确\n        test = get_driver.get_element('logout', 'logout_button').get_attribute('innerText')\n        print(test)\n>       assert test == '退出'\nE       AssertionError: assert '' == '退出'\nE         - 退出\n\n..\\test_cases\\test_login\\test_login.py:68: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_test_login",
+    "time" : {
+      "start" : 1680246996056,
+      "stop" : 1680246996080,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_driver",
+    "time" : {
+      "start" : 1680246996080,
+      "stop" : 1680247005868,
+      "duration" : 9788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' == '退出'\n  - 退出",
+    "statusTrace" : "self = <test_NW.test_cases.test_login.test_login.test_login object at 0x00000249332DA0A0>\nget_driver = <test_NW.base.base_NW.base_NW object at 0x00000249333B2280>\n\n    @allure.story(\"登录成功\")\n    def test_login_002(self,get_driver):\n        #获取后台系统地址\n        url = get_driver.get_url('test','houtai')\n        #登录仿真后台系统\n        get_driver.driver.get(url)\n        #获取账号、密码\n        get_user,get_password,get_code = get_driver.get_user(1)\n        #输入账号\n        get_driver.get_element('login','user_input').send_keys(get_user)\n        #输入密码\n        get_driver.get_element('login', 'pas_input').send_keys(get_password)\n        #点击获取验证码\n        get_driver.get_element('login', 'send_code').click()\n        sleep(3)\n        #输入验证码\n        get_driver.get_element('login', 'code_input').send_keys(get_code)\n        #点击登录\n        get_driver.get_element('login', 'login_button').click()\n    \n        #校验是否正确\n        test = get_driver.get_element('logout', 'logout_button').get_attribute('innerText')\n        print(test)\n>       assert test == '退出'\nE       AssertionError: assert '' == '退出'\nE         - 退出\n\n..\\test_cases\\test_login\\test_login.py:68: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3960d82a186cf835",
+      "name" : "失败截图",
+      "source" : "3960d82a186cf835.png",
+      "type" : "image/png",
+      "size" : 628051
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_driver::0",
+    "time" : {
+      "start" : 1680247016191,
+      "stop" : 1680247019731,
+      "duration" : 3540
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_test_login::0",
+    "time" : {
+      "start" : 1680247019736,
+      "stop" : 1680247019736,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=2, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_NW.test_cases.test_login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9Q92OBR"
+  }, {
+    "name" : "thread",
+    "value" : "25500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_NW.test_cases.test_login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=2, reruns_delay=1)" ]
+  },
+  "source" : "7485664a378d3e16.json",
+  "parameterValues" : [ ]
+}

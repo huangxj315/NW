@@ -1,0 +1,52 @@
+cpsq:
+  iframe: None
+  xpath: //*[@href="/cnt/bill/accept/drawbillstep1-ui"]
+  备注: 出票申请
+
+keyword_input:
+  iframe: None
+  xpath: //*[@name="keyword"]
+  备注: 关键字输入
+
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 关键字查询按钮
+
+voucheramount:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr/td[5]
+  备注: 列表第一条数据的应付金额
+shenqing:
+  iframe: None
+  xpath: //*[@onclick="obj_js.selCwpzEvent(this);"]
+  备注: 点击申请按钮
+yhzhxz:
+  iframe: None
+  xpath: //*[@class="chosed ml10"]
+  备注: 银行账户选择
+zhlist:
+    iframe: //*[@id="jbox-iframe"]
+    xpath: //*[@class="dataList"]
+    备注: 银行账户选择
+cpamt:
+  iframe: None
+  xpath: //*[@id="vouchmny"]
+  备注: 出票金额
+myfs:
+  iframe: None
+  xpath: //*[@name="trademode"]
+  备注: 贸易方式
+
+nextBtn:
+  iframe: None
+  xpath: //*[@id="nextBtn"]
+  备注: 点击下一步
+subBtn:
+  iframe: None
+  xpath: //*[@name="subBtn"]
+  备注: 点击提交申请按钮
+cpwc:
+    iframe: None
+    xpath: /html/body/div[3]/div[2]/div/div[3]/p[1]
+    备注: 出票完成提示

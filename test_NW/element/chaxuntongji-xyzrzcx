@@ -1,0 +1,13 @@
+xyzrzcx:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/letterCredit-ui"]
+  备注: 信用证融资查询
+
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

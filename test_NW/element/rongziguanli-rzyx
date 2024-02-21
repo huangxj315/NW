@@ -1,0 +1,48 @@
+rzyx:
+  iframe: None
+  xpath: //*[@href="/cnt/precustcredit/list-ui"]
+  备注: 融资意向
+bcfj:
+  iframe: None
+  xpath: //table[@class='payMentCnt']/tbody/tr/td[3]/p/a[1]
+  备注: 补充附件
+uploanMYFile:
+  iframe: None
+  xpath: //*[@id="uploanFile002"]
+  备注: 点击上传附件
+webuploader-pick:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnRed tc_btn webuploader-container"]
+  备注: 点击选择文件
+uploadbutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击上传附件后的确定按钮
+savebutton:
+  iframe: None
+  xpath: //*[@id="nextBtn"]
+  备注: 提交按钮
+xq:
+  iframe: None
+  xpath: //table[@class='payMentCnt']/tbody/tr/td[3]/p/a[2]
+  备注: 详情
+tjxx:
+  iframe: None
+  xpath: //table[@class='payMentCnt']/tbody/tr/td[3]/p/a[3]
+  备注: 推荐信息
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+loannum:
+  iframe: None
+  xpath: //div[@class='payMentTit']/span[2]/a
+  备注: 借款编号详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭按钮
+tjxxxq:
+  iframe: None
+  xpath: //p[@class='mb5']/a
+  备注: 推荐信息页面的详情

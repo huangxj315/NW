@@ -1,0 +1,16 @@
+fkxxcx:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/loaninfoQy-ui"]
+  备注: 放款信息查询
+xqbutton:
+  iframe: None
+  xpath: //div[@class='list listScroll']/table/tbody/tr[1]/td[14]/a
+  备注: 详情
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

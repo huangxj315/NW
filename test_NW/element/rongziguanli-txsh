@@ -1,0 +1,32 @@
+txsh:
+  iframe: None
+  xpath: //*[@href="/cnt/outmoneyreq/auditlist-ui"]
+  备注: 提现审核
+searchbtn:
+  iframe: None
+  xpath: //*[@class="btnGray"]
+  备注: 查询按钮
+sh:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[7]/a
+  备注: 审核
+sqbh:
+  iframe: None
+  xpath: //table[@class='formTable mt10']/tbody/tr[1]/td
+  备注: 申请编号
+vetoreason:
+  iframe: None
+  xpath: //*[@id="vetoreason"]
+  备注: 审核意见
+saveBtn:
+  iframe: None
+  xpath: //*[@id="saveBtn"]
+  备注: 保存
+id:
+  iframe: None
+  xpath: //*[@name="id"]
+  备注: 查询条件的申请编号
+sqjg:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr/td/div/span
+  备注: 查询结果

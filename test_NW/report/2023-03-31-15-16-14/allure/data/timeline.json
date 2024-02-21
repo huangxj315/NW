@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9Q92OBR",
+    "children" : [ {
+      "name" : "25500-MainThread",
+      "children" : [ {
+        "name" : "test_login_002",
+        "uid" : "1569c58d32c154da",
+        "parentUid" : "ece04c976864c468b49e3930faaadb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680247056361,
+          "stop" : 1680247065147,
+          "duration" : 8786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_002",
+        "uid" : "7485664a378d3e16",
+        "parentUid" : "ece04c976864c468b49e3930faaadb8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1680247005870,
+          "stop" : 1680247014332,
+          "duration" : 8462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_002",
+        "uid" : "c47d82367af3bd29",
+        "parentUid" : "ece04c976864c468b49e3930faaadb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680247033048,
+          "stop" : 1680247041290,
+          "duration" : 8242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_001",
+        "uid" : "98092162406f176b",
+        "parentUid" : "ece04c976864c468b49e3930faaadb8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680246987343,
+          "stop" : 1680246992572,
+          "duration" : 5229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ece04c976864c468b49e3930faaadb8f"
+    } ],
+    "uid" : "6b7369f54e1e7c966afb6c8f496f9336"
+  } ]
+}

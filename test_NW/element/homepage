@@ -1,0 +1,38 @@
+home_tab:
+  iframe: None
+  xpath: //*[@class="m1"]
+  备注: 首页tab签
+shouye:
+  iframe: None
+  xpath: //*[@id="topmenu"]/ul/li[1]/a/p
+  备注: 首页tab签内容
+mypay_tab:
+    iframe: None
+    xpath: //*[@href="/cnt/stat/wdyf"]
+    备注: 供应商我的应付tab签
+hxmypay_tab:
+    iframe: None
+    xpath: //*[@href="/hxcnt/stat/wdyf"]
+    备注: 核心企业我的应付tab签
+mytodo_tab:
+    iframe: None
+    xpath: //*[@class="m01"]
+    备注: 待办业务tab签
+mytoloan_tab:
+    iframe: None
+    xpath: //*[@class="m2"]
+    备注: 我要借款tab签
+
+shezhi_tab:
+  iframe: None
+  xpath: //*[@class="m5"]
+  备注: 设置tab签
+chaxuntongji_tab:
+  iframe: None
+  xpath: //*[@class="m4"]
+  备注: 查询统计tab签
+rongziguanli_tab:
+  iframe: None
+  xpath: //*[@class="m3"]
+  备注: 融资管理tab签
+

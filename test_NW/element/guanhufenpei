@@ -1,0 +1,40 @@
+khgl:
+    iframe: None
+    xpath: //*[@id="searchForm"]/ul/li[1]/a[7]
+    备注: 客户管理
+div_locator:
+    iframe: None
+    xpath: //*[@class="needTobe"]
+    备注: 管户分配列表
+choose:
+  iframe: None
+  xpath: //*[@class="choose ml10"]
+  备注: 选择客户经理按钮
+nameinput:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="username"]
+  备注: 姓名输入框
+searchbutton:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnGray"]
+  备注: 查询按钮
+sel:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="sel"]
+  备注: 选中当前客户经理
+confbtn:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnRed bigBtn ml20"]
+  备注: 确定按钮
+saveBtn:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn"]
+  备注: 点击提交按钮
+khjs:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn"]
+  备注: 客户接收按钮
+jkcg:
+    iframe: None
+    xpath: /html/body/div[3]/div/div/div[3]/h2
+    备注: 借款申请成功提示

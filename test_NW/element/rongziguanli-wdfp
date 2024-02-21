@@ -1,0 +1,28 @@
+wdfp:
+  iframe: None
+  xpath: //*[@href="/cnt/invoicedraw/costlist-ui"]
+  备注: 我的发票
+wsq:
+  iframe: None
+  xpath: //*[@id="searchForm"]/ul/li[3]/select/option[2]
+  备注: 未申请状态
+ysq:
+  iframe: None
+  xpath: //*[@id="searchForm"]/ul/li[3]/select/option[3]
+  备注: 已申请状态
+searchbutton:
+  iframe: None
+  xpath: //*[@class="btnGray"]
+  备注: 查询按钮
+drawinv:
+  iframe: None
+  xpath: //*[@name="drawinv"]
+  备注: 申请发票
+fpxq:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[8]/a[1]
+  备注: 发票详情
+fhbtn:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn ml20"]
+  备注: 返回按钮

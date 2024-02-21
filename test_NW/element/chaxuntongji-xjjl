@@ -1,0 +1,13 @@
+xjjl:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/xjjl-ui"]
+  备注: 询价记录
+
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+exportButton:
+  iframe: None
+  xpath: //*[@id="exportButton"]
+  备注: 下载查询结果按钮

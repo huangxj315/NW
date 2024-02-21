@@ -1,0 +1,44 @@
+fjtx_img:
+  iframe: None
+  xpath: //*[@id="fangjiatixing"]/img
+  备注: 放假提醒图片
+
+user_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入账号"]
+  备注: 账号输入
+
+pas_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入密码"]
+  备注: 密码输入
+
+send_code:
+  iframe: None
+  xpath: //*[@class="code-btn"]
+  备注: 获取验证码
+error_ok:
+  iframe: None
+  xpath: //*[@id="jbox-content"]/div/text()
+  备注: 错误提示-短信发送频繁
+
+code_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入短信验证码"]
+  备注: 验证码输入
+
+
+login_button:
+  iframe: None
+  xpath: //*[@class="btnSubmit"]
+  备注: 密码登录按钮
+
+user_error_msg:
+  iframe: None
+  xpath: //*[@class="error"]
+  备注: 用户名报错信息框
+
+okbutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 短信发送频繁弹窗

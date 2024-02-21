@@ -1,0 +1,269 @@
+firmname:
+  iframe: None
+  xpath: //*[@id="firmname"]
+  备注: 企业名称输入
+yingyezz:
+  iframe: None
+  xpath: //*[@id="yingyezz"]
+  备注: 统一社会信用代码输入
+qiygm:
+  iframe: None
+  xpath: //*[@id="qiygm"]
+  备注: 选择企业规模
+qiyeleix:
+  iframe: None
+  xpath: //*[@id="qiyeleix"]
+  备注: 选择企业类型
+oneselect:
+  iframe: None
+  xpath: //*[@id="oneselect"]
+  备注: 选择所属行业
+twoselect:
+  iframe: None
+  xpath: //*[@id="twoselect"]
+  备注: 选择所属行业
+threeselect:
+  iframe: None
+  xpath: //*[@id="threeselect"]
+  备注: 选择所属行业
+fourselect:
+  iframe: None
+  xpath: //*[@id="fourselect"]
+  备注: 选择所属行业
+areaSelect:
+  iframe: None
+  xpath: //*[@id="areaSelect"]
+  备注: 选择大区
+provinceSelect:
+  iframe: None
+  xpath: //*[@id="provinceSelect"]
+  备注: 选择省份
+citySelect:
+  iframe: None
+  xpath: //*[@id="citySelect"]
+  备注: 选择城市
+regionSelect:
+  iframe: None
+  xpath: //*[@id="regionSelect"]
+  备注: 选择区
+streetname:
+  iframe: None
+  xpath: //*[@id="streetname"]
+  备注: 输入详情地址信息
+optestart:
+  iframe: None
+  xpath: //*[@id="optestart"]
+  备注: 经营开始时间
+opteend:
+  iframe: None
+  xpath: //*[@id="opteend"]
+  备注: 经营结束时间
+yyzzlink:
+  iframe: None
+  xpath: //*[@id="yyzzlink"]
+  备注: 上传图片
+farnname:
+  iframe: None
+  xpath: //*[@id="farnname"]
+  备注: 法人姓名
+farnzjno:
+  iframe: None
+  xpath: //*[@id="farnzjno"]
+  备注: 法人身份证号
+credstarttime:
+  iframe: None
+  xpath: //*[@id="credstarttime"]
+  备注: 法人身份证开始时间
+credendtime:
+  iframe: None
+  xpath: //*[@id="credendtime"]
+  备注: 法人身份证有效结束时间
+farnshji:
+  iframe: None
+  xpath: //*[@id="farnshji"]
+  备注: 法人手机号
+farndzyx:
+  iframe: None
+  xpath: //*[@id="farndzyx"]
+  备注: 法人邮箱
+sfzzlink:
+  iframe: None
+  xpath: //*[@id="sfzzlink"]
+  备注: 法人身份证正面
+sfzflink:
+  iframe: None
+  xpath: //*[@id="sfzflink"]
+  备注: 法人身份证反面
+username:
+  iframe: None
+  xpath: //*[@id="username"]
+  备注: 经办人姓名
+idnum:
+  iframe: None
+  xpath: //*[@id="idnum"]
+  备注: 经办人身份证号
+idstartdate:
+  iframe: None
+  xpath: //*[@id="idstartdate"]
+  备注: 经办人身份证有效开始时间
+idenddate:
+  iframe: None
+  xpath: //*[@id="idenddate"]
+  备注: 经办人身份证有效截止时间
+email:
+  iframe: None
+  xpath: //*[@id="email"]
+  备注: 经办人邮箱
+sendSms:
+  iframe: None
+  xpath: //*[@id="sendSms"]
+  备注: 获取验证码
+code:
+  iframe: None
+  xpath: //*[@id="code"]
+  备注: 输入验证码
+nextBtn:
+  iframe: None
+  xpath: //*[@id="nextBtn"]
+  备注: 下一步
+qyxxnextbutton:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn ml20"]
+  备注: 企业基本信息、股东信息、附件下一步
+gdlx:
+  iframe: None
+  xpath: //*[@name="gdList[0].usertype"]
+  备注: 股东类型
+gdname:
+  iframe: None
+  xpath: //*[@name="gdList[0].username"]
+  备注: 股东名称
+zjlx:
+  iframe: None
+  xpath: //*[@name="gdList[0].certtype"]
+  备注: 证件类型
+zjnum:
+  iframe: None
+  xpath: //*[@name="gdList[0].certno"]
+  备注: 证件号码
+certstart:
+  iframe: None
+  xpath: //*[@name="gdList[0].certstart"]
+  备注: 证件有效开始时间
+certend:
+  iframe: None
+  xpath: //*[@name="gdList[0].certend"]
+  备注: 证件有效结束时间
+cgrate:
+  iframe: None
+  xpath: //*[@name="gdList[0].cgrate"]
+  备注: 持股比例
+iscontrol:
+  iframe: None
+  xpath: //*[@name="gdList[0].iscontrol"]
+  备注: 是否控股股东或实际控制人
+usertype:
+  iframe: None
+  xpath: //*[@name="syrList[0].usertype"]
+  备注: 受益人类型
+syrname:
+  iframe: None
+  xpath: //*[@name="syrList[0].username"]
+  备注: 受益人姓名
+certtype:
+  iframe: None
+  xpath: //*[@name="syrList[0].certtype"]
+  备注: 受益人证件类型
+certno:
+  iframe: None
+  xpath: //*[@name="syrList[0].certno"]
+  备注: 受益人证件号码
+syrcertstart:
+  iframe: None
+  xpath: //*[@name="syrList[0].certstart"]
+  备注: 受益人证件有效开始时间
+syrcertend:
+  iframe: None
+  xpath: //*[@name="syrList[0].certend"]
+  备注: 受益人证件结束时间
+addr:
+  iframe: None
+  xpath: //*[@name="syrList[0].addr"]
+  备注: 受益人地址
+xxdjb:
+  iframe: None
+  xpath: //*[@class="btnRed"]
+  备注: 信息登记表附件
+webuploader-pick:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnRed tc_btn webuploader-container"]
+  备注: 点击选择文件
+uploadbutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击上传附件后的确定按钮
+gszc:
+  iframe: None
+  xpath: //*[@id="uploanMYFile"]
+  备注: 公司章程附件
+cwbb:
+  iframe: None
+  xpath: //*[@id="uploanWLFile"]
+  备注: 财务报表附件
+sbmd:
+  iframe: None
+  xpath: //*[@id="uploanSBMDFile"]
+  备注: 社保名单附件
+accid:
+  iframe: None
+  xpath: //*[@id="accid"]
+  备注: 银行卡号
+khh:
+  iframe: None
+  xpath: //*[@class="chosen-single"]
+  备注: 请选择
+khhmc:
+  iframe: None
+  xpath: //*[@data-option-array-index="3"]
+  备注: 农业银行
+khwdsf:
+  iframe: None
+  xpath: //*[@id="wdprovcd"]
+  备注: 开户网点省份
+khwds:
+  iframe: None
+  xpath: //*[@id="wdcitycd"]
+  备注: 开户网点市
+khwdfzh:
+  iframe: None
+  xpath: //*[@name="fzhSpan"]
+  备注: 开户网点分支行
+fkhmc1:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="fkhmc1"]
+  备注: 输入网点名称
+searchButton:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@id="searchButton"]
+  备注: 网点名称查询按钮
+select:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@onclick="selEvent(this)"]
+  备注: 点击选择
+
+nextbutton:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn ml20 nextStep3"]
+  备注: 下一步
+amt:
+  iframe: None
+  xpath: //*[@id="amt"]
+  备注: 输入打款金额
+okbtn:
+  iframe: None
+  xpath: //*[@id="jbox-state-state0"]/DIV[2]/BUTTON[1]
+  备注: 确定提示框
+amtnextBtn:
+  iframe: None
+  xpath: //*[@id="nextBtn"]
+  备注: 打款认证下一步

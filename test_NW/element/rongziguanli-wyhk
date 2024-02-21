@@ -1,0 +1,12 @@
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+loannum:
+  iframe: None
+  xpath: //div[@class='payMentTit']/span[2]/a
+  备注: 借款编号详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭按钮

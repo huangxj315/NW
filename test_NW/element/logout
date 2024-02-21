@@ -1,0 +1,8 @@
+logout_text:
+  iframe: None
+  xpath: /html/body/div[1]/div[1]/div/div[1]/ul/li[4]/a/text()
+  备注: 退出文案
+logout_button:
+    iframe: None
+    xpath: //*[@class="icon_out"]
+    备注: 退出按钮

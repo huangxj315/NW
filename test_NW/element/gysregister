@@ -1,0 +1,40 @@
+telphone_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入手机号码"]
+  备注: 手机号码输入
+
+codeimg:
+  iframe: None
+  xpath: //*[@class="vux-x-input-right-full"]
+  备注: 图片验证码
+
+img_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入图片验证码"]
+  备注: 图片验证码输入
+
+imgerror:
+  iframe: None
+  xpath: //*[@class="weui-toast__content"]
+  备注: 验证码输入有误
+nextbtn:
+  iframe: None
+  xpath: //*[@class="weui-btn weui-btn_primary"]
+  备注: 下一步、提交按钮
+code_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入短信验证码"]
+  备注: 短信验证码输入
+pass_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入密码"]
+  备注: 密码输入
+pass2_input:
+  iframe: None
+  xpath: //*[@placeholder="请再次确认密码"]
+  备注: 确认密码输入
+succ:
+  iframe: None
+  xpath: //*[@class="weui-msg__title"]
+  备注: 注册成功
+

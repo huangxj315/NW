@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"javascript:void(0);\" class=\"btnSubmit\" name=\"lgBtn\">...</a> is not clickable at point (1250, 522). Other element would receive the click: <div id=\"jbox-fade\" class=\"jbox-fade\" style=\"position: absolute; height: 893px; width: 100%; inset: 0px; z-index: 1985; opacity: 0.1;\"></div>\n  (Session info: chrome=111.0.5563.147)",
+      "children" : [ {
+        "name" : "test_login_002",
+        "uid" : "1569c58d32c154da",
+        "parentUid" : "35f0b704963d20192673d2668179cf39",
+        "status" : "broken",
+        "time" : {
+          "start" : 1680247056361,
+          "stop" : 1680247065147,
+          "duration" : 8786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35f0b704963d20192673d2668179cf39"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

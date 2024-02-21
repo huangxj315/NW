@@ -1,0 +1,32 @@
+div_locator:
+    iframe: None
+    xpath: //*[@class="needTobe"]
+    备注: 首页待办div标签
+comment:
+  iframe: None
+  xpath: //*[@id="comment"]
+  备注: 审核意见
+btnRed:
+    iframe: None
+    xpath: //*[@class="btnRed bigBtn"]
+    备注: 提交按钮
+jsfqianshu:
+  iframe: None
+  xpath: //*[@data-keyword="接收方签章"]
+  备注: 点击签署按钮
+okBtn:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击签署确定按钮
+dzqzqianshu:
+  iframe: None
+  xpath: //*[@data-keyword="（电子签章）"]
+  备注: 点击签署按钮
+commentinput:
+  iframe: None
+  xpath: //*[@id="comment"]
+  备注: 输入审核意见
+subBtn:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn"]
+  备注: 点击提交按钮

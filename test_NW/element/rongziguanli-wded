@@ -1,0 +1,16 @@
+wded:
+  iframe: None
+  xpath: //*[@href="/cnt/custcredit/list-ui"]
+  备注: 我的额度
+xq:
+  iframe: None
+  xpath: //p[@class='mb5']/a
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭按钮
+loannum:
+  iframe: None
+  xpath: //td[@class="longTxt"]/a
+  备注: 借款编号

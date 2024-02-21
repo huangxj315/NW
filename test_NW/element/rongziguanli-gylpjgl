@@ -1,0 +1,112 @@
+gylpjgl:
+  iframe: None
+  xpath: //*[@href="/cnt/bill/accept/list-ui"]
+  备注: 供应链票据管理
+bszr:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[2]
+  备注: 背书转让tab
+tsfk:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[3]
+  备注: 提示付款tab
+stageState:
+  iframe: None
+  xpath: //*[@name='stageState']
+  备注: 状态
+duedatebegin:
+  iframe: None
+  xpath: //*[@name='duedatebegin']
+  备注: 票据到期日开始日期
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+xiangqing:
+  iframe: None
+  xpath: //table[@class='dataList dataListSpe']/tbody/tr[1]/td[9]/a[3]
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn"]
+  备注: 关闭按钮
+tishifukuan:
+  iframe: None
+  xpath: //table[@class='dataList dataListSpe']/tbody/tr[1]/td[9]/a[2]
+  备注: 提示付款
+tsbillno:
+  iframe: None
+  xpath: //table[@class="formTable mt20"]/tbody/tr[1]/td
+  备注: 提示付款页面票据编号
+cxbillno:
+  iframe: None
+  xpath: //table[@class='dataList dataListSpe']/tbody/tr/td[1]
+  备注: 详情
+paytipRemark:
+  iframe: None
+  xpath: //*[@name='paytipRemark']
+  备注: 提示付款意见
+submit:
+  iframe: None
+  xpath: //*[@id='nextBtn']
+  备注: 提交按钮
+crpayId:
+  iframe: None
+  xpath: //*[@name='crpayId']
+  备注: 提示付款tab页面查询条件中的票据编号
+beishuzhuanrang:
+  iframe: None
+  xpath: //table[@class='dataList dataListSpe']/tbody/tr[1]/td[9]/a[1]
+  备注: 背书转让
+endorseBillAmount:
+  iframe: None
+  xpath: //*[@id='endorseBillAmount']
+  备注: 背书金额
+canTransfer:
+  iframe: None
+  xpath: //*[@id='canTransfer']
+  备注: 是否可转让
+endorseRemark:
+  iframe: None
+  xpath: //*[@id='endorseRemark']
+  备注: 背书意见
+rcvCustId:
+  iframe: None
+  xpath: //*[@id='endorseRemark']
+  备注: 收票方
+xuanze:
+  iframe: None
+  xpath: //*[@id="rcv"]/tbody/tr[3]/td/a
+  备注: 选择
+spzh:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[3]/td[4]/a
+  备注: 选择收票方的账户
+contno:
+  iframe: None
+  xpath: //*[@id='contno']
+  备注: 合同编号
+contnm:
+  iframe: None
+  xpath: //*[@id='contnm']
+  备注: 合同名称
+CONTMNY:
+  iframe: None
+  xpath: //*[@id='CONTMNY']
+  备注: 合同金额
+contsgndt:
+  iframe: None
+  xpath: //*[@id='contsgndt']
+  备注: 签订日期
+tradeMode:
+  iframe: None
+  xpath: //*[@id='tradeMode']
+  备注: 贸易方式
+xqbutton1:
+  iframe: None
+  xpath: //table[@class='dataList dataListSpe']/tbody/tr[1]/td[9]/a
+  备注: 详情
+xqbutton2:
+  iframe: None
+  xpath: //div[@class='list']/table/tbody/tr/td[11]/a[1]
+  备注: 详情

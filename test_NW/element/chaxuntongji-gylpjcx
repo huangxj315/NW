@@ -1,0 +1,28 @@
+gylpjcx:
+  iframe: None
+  xpath: //*[@href="/cnt/stat/pjlist-ui"]
+  备注: 供应链票据查询
+xqbutton:
+  iframe: None
+  xpath: //div[@class='list listScroll']/table/tbody/tr[1]/td[9]/a
+  备注: 详情
+closebutton:
+  iframe: None
+  xpath: //*[@class="btnArea"]
+  备注: 关闭按钮
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+beishuzhuanrang:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[2]
+  备注: 背书转让tab
+tishifukuan:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[3]
+  备注: 提示付款tab
+tiexian:
+  iframe: None
+  xpath: //*[@id="moreCond"]/li/a[4]
+  备注: 贴现tab

@@ -1,0 +1,168 @@
+billtype_fdf:
+  iframe: None
+  xpath: //*[@id="billtype0"]
+  备注: 非电费
+billtype_df:
+  iframe: None
+  xpath: //*[@id="billtype1"]
+  备注: 电费
+contno_input:
+  iframe: None
+  xpath: //*[@id="contno"]
+  备注: 合同编号输入
+
+contnm_input:
+  iframe: None
+  xpath: //*[@id="contnm"]
+  备注: 合同名称输入
+
+contmny_input:
+  iframe: None
+  xpath: //*[@id="contmny"]
+  备注: 合同金额输入
+
+contsgndt:
+  iframe: None
+  xpath: //*[@id="contsgndt"]
+  备注: 点击签订日期
+dpokinput:
+  iframe: None
+  xpath: //*[@id="dpOkInput"]
+  备注: 点击签订日期确定按钮
+
+uploanMYFile:
+  iframe: None
+  xpath: //*[@id="uploanMYFile"]
+  备注: 点击上传附件
+
+
+webuploader-pick:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnRed tc_btn webuploader-container"]
+  备注: 点击选择文件
+
+uploadbutton:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击上传附件后的确定按钮
+
+addCus:
+  iframe: None
+  xpath: //*[@class="addCus fr"]
+  备注: 点击导入发票信息
+manualVerification:
+  iframe: None
+  xpath: //*[@id="moreCond"]/LI[3]
+  备注: 点击人工核验tab
+manualEntry:
+    iframe: None
+    xpath: //*[@id="moreCond"]/LI[2]
+    备注: 点击人工录入tab
+invcd_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票代码"]
+  备注: 发票代码输入
+invodate:
+  iframe: None
+  xpath: //*[@placeholder="请选择开票日期"]
+  备注: 选择开票日期
+invodatebutton:
+  iframe: None
+  xpath: //*[@id="dpOkInput"]
+  备注: 点击开票日期确定按钮
+invono_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票号码"]
+  备注: 发票号码输入
+invoamount_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票金额"]
+  备注: 发票金额输入
+invototalamount_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入发票总额"]
+  备注: 发票总额输入
+buynm_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入购买方名称"]
+  备注: 购买方名称输入
+supnm_input:
+  iframe: None
+  xpath: //*[@placeholder="请输入销售方名称"]
+  备注: 销售方名称输入
+selectbutton:
+  iframe: None
+  xpath: //*[@class="btnGray webuploader-container"]
+  备注: 点击选择文件按钮
+impBtn:
+  iframe: None
+  xpath: //*[@id="impBtn"]
+  备注: 点击导入按钮
+saveBtn:
+  iframe: None
+  xpath: //*[@class="btnGray bigBtn ml20"]
+  备注: 点击保存按钮
+fzhSpan:
+  iframe: None
+  xpath: //*[@name="fzhSpan"]
+  备注: 点击选择销售方
+firmname_input:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@name="firmname"]
+  备注: 销售方名称输入
+btnGray:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@class="btnGray"]
+  备注: 点击销售方名称查询
+select:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@onclick="selEvent(this)"]
+  备注: 核心企业点击选择
+selectgys:
+  iframe: //*[@id="jbox-iframe"]
+  xpath: //*[@onclick="obj_js.selEvent(this)"]
+  备注: 供应商点击选择
+xiaoshoufang:
+  iframe: None
+  xpath: //*[@name="fzhSpan"]
+  备注: 销售方名称
+billid:
+  iframe: None
+  xpath: //*[@name="billid"]
+  备注: 应付凭证单号
+paymoney_input:
+  iframe: None
+  xpath: //*[@id="PAYMONEY"]
+  备注: 应付金额输入
+paydate:
+  iframe: None
+  xpath: //*[@id="PAYDATE"]
+  备注: 点击付款日
+dpbutton:
+  iframe: None
+  xpath: //*[@class="dpButton"]
+  备注: 点击付款日确定按钮
+billmemo_input:
+  iframe: None
+  xpath: //*[@id="BILLMEMO"]
+  备注: 摘要输入
+subBtn:
+  iframe: None
+  xpath: //*[@id="subBtn"]
+  备注: 点击提交按钮
+yfcx:
+  iframe: None
+  xpath: //*[@href="/cnt/vchtrdflow/vchtrdmanage-ui"]
+  备注: 应付查询
+keyword:
+  iframe: None
+  xpath: //*[@name="keyword"]
+  备注: 关键字
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 关键字查询按钮
+list_num1:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr/td[1]
+  备注: 列表第一条数据的凭证编号

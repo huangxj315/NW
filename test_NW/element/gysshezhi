@@ -1,0 +1,79 @@
+yhwh:
+  iframe: None
+  xpath: //*[@href="/cnt/crm/user/list-ui"]
+  备注: 用户维护
+
+addBtn:
+  iframe: None
+  xpath: //*[@id="addBtn"]
+  备注: 新增按钮
+
+username:
+  iframe: None
+  xpath: //*[@id="username"]
+  备注: 用户姓名
+
+idnum:
+  iframe: None
+  xpath: //*[@id="idnum"]
+  备注: 身份证号
+
+idstartdate:
+  iframe: None
+  xpath: //*[@id="idstartdate"]
+  备注: 证件开始时间
+longeffect:
+  iframe: None
+  xpath: //*[@id="longeffect"]
+  备注: 证件结束时间-长期
+
+telephone:
+  iframe: None
+  xpath: //*[@id="telephone"]
+  备注: 登录手机号
+email:
+  iframe: None
+  xpath: //*[@id="email"]
+  备注: 邮箱
+shenhe:
+  iframe: None
+  xpath: //*[@value="JKTY0003"]
+  备注: 角色类型-审核
+caozuo:
+  iframe: None
+  xpath: //*[@value="JKTY0002"]
+  备注: 角色类型-操作
+ismsger:
+  iframe: None
+  xpath: //*[@id="ismsger"]
+  备注: 消息接收人-是
+saveBtn:
+  iframe: None
+  xpath: //*[@id="saveBtn"]
+  备注: 保存按钮
+yhname:
+  iframe: None
+  xpath: //*[@name="username"]
+  备注: 查询条件用户姓名
+yhemail:
+  iframe: None
+  xpath: //*[@name="email"]
+  备注: 查询条件用户邮箱
+yhtel:
+  iframe: None
+  xpath: //*[@name="telephone"]
+  备注: 查询条件用户手机号
+searchButton:
+  iframe: None
+  xpath: //*[@id="searchButton"]
+  备注: 查询按钮
+cxresult:
+  iframe: None
+  xpath: //table[@class='dataList']/tbody/tr[1]/td[2]
+  备注: 查询结果的用户名称
+div_locator:
+  iframe: None
+  xpath: //*[@class="list"]
+  备注: div列表数据
+
+

@@ -1,0 +1,51 @@
+div_locator:
+    iframe: None
+    xpath: //*[@class="partner"]
+    备注: 我要借款div标签
+fdjg:
+    iframe: None
+    xpath: //*[@class="partner-title"]
+    备注: 放贷机构
+loanlist:
+  iframe: None
+  xpath: //*[@class="dataList"]
+  备注: 我要借款table
+nextBtn:
+  iframe: None
+  xpath: //*[@class="btnRed bigBtn ml20"]
+  备注: 完善合同信息下一步
+sqjknext:
+  iframe: None
+  xpath: //*[@class="btnRed ml20 bigBtn"]
+  备注: 申请借款下一步
+loanmoney:
+  iframe: None
+  xpath: //*[@id="REQMONEY"]
+  备注: 借款金额
+signbtn:
+  iframe: None
+  xpath: //*[@data-keyword="乙方签名"]
+  备注: 签署按钮
+okBtn:
+  iframe: None
+  xpath: //*[@class="jbox-button jbox-button-focus"]
+  备注: 点击签署确定按钮
+subBtn:
+  iframe: None
+  xpath: //*[@class="btnRed ml20 bigBtn"]
+  备注: 点击提交按钮
+
+jkcg:
+    iframe: None
+    xpath: /html/body/div[3]/div/div/div[3]/h2
+    备注: 借款申请成功提示
+
+ckjkxx:
+  iframe: None
+  xpath: /html/body/div[3]/div/div/div[3]/p/a[1]
+  备注: 查看借款信息
+jkbh:
+  iframe: None
+  xpath: //*[@id="loanDetailDiv"]/div/div[2]/div[2]/table/tbody/tr[3]/td
+  备注: 借款编号
+
